@@ -1,0 +1,27 @@
+{
+    "name": "Space To Click",
+    "description": "an extension for left click with spacebar",
+    "version": "1.0",
+    "manifest_version": 3,
+    "author": "Muhammad Atha Tsaqif",
+    "background": {
+        "service_worker": "app.js"
+    },
+    "permissions": ["storage", "activeTab", "scripting"],
+    "action": {
+        "default_popup": "popup/popup.html",
+        "default_icon": {
+            "16": "/img/favicon-16x16.png",
+            "32": "/img/favicon-32x32.png",
+            "48": "/img/favicon-48x48.ico",
+            "128": "/img/favicon-180x180.png"
+        }
+    },
+    "icons": {
+        "16": "/img/favicon-16x16.png",
+        "32": "/img/favicon-32x32.png",
+        "48": "/img/favicon-48x48.ico",
+        "128": "/img/favicon-180x180.png"
+    },
+    "options_page": "options/options.html"
+}
